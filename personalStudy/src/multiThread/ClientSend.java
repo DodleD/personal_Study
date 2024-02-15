@@ -14,7 +14,7 @@ private Socket socket;
 		this.socket = socket;
 	}
 
-
+	//aaaaaa
 	@Override
 	public void run() { // I/O Stream은 예외처리가 필수 !
 		try (PrintWriter writer = new PrintWriter(socket.getOutputStream(),true); //출력 통로 만들어주고!
